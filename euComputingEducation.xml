@@ -1,0 +1,712 @@
+<data>
+  <columns>
+    <country index="7">Country</country>
+    <field_of_education index="5">Field of education</field_of_education>
+    <flags index="10">Flags</flags>
+    <gender index="6">Gender</gender>
+    <level_of_education index="1">Level of education</level_of_education>
+    <programme_destination index="2">Programme destination</programme_destination>
+    <programme_duration index="3">Programme duration</programme_duration>
+    <programme_orientation index="4">Programme orientation</programme_orientation>
+    <value index="9">Value</value>
+    <year index="8">Year</year>
+  </columns>
+  <records>
+    <record index="1">
+      <country>Austria</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>1120</value>
+      <year>2004</year>
+    </record>
+    <record index="2">
+      <country>Austria</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>22967</value>
+      <year>2004</year>
+    </record>
+    <record index="3">
+      <country>Austria</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>1586</value>
+      <year>2005</year>
+    </record>
+    <record index="4">
+      <country>Austria</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>24770</value>
+      <year>2005</year>
+    </record>
+    <record index="5">
+      <country>Austria</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>2244</value>
+      <year>2006</year>
+    </record>
+    <record index="6">
+      <country>Austria</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>26789</value>
+      <year>2006</year>
+    </record>
+    <record index="7">
+      <country>Austria</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>2459</value>
+      <year>2007</year>
+    </record>
+    <record index="8">
+      <country>Austria</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>28181</value>
+      <year>2007</year>
+    </record>
+    <record index="9">
+      <country>Austria</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>2481</value>
+      <year>2008</year>
+    </record>
+    <record index="10">
+      <country>Austria</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>34917</value>
+      <year>2008</year>
+    </record>
+    <record index="11">
+      <country>Czech Republic</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>1292</value>
+      <year>2004</year>
+    </record>
+    <record index="12">
+      <country>Czech Republic</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>46097</value>
+      <year>2004</year>
+    </record>
+    <record index="13">
+      <country>Czech Republic</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>1502</value>
+      <year>2005</year>
+    </record>
+    <record index="14">
+      <country>Czech Republic</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>45670</value>
+      <year>2005</year>
+    </record>
+    <record index="15">
+      <country>Czech Republic</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>2127</value>
+      <year>2006</year>
+    </record>
+    <record index="16">
+      <country>Czech Republic</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>60260</value>
+      <year>2006</year>
+    </record>
+    <record index="17">
+      <country>Czech Republic</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>2520</value>
+      <year>2007</year>
+    </record>
+    <record index="18">
+      <country>Czech Republic</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>69657</value>
+      <year>2007</year>
+    </record>
+    <record index="19">
+      <country>Czech Republic</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>3347</value>
+      <year>2008</year>
+    </record>
+    <record index="20">
+      <country>Czech Republic</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>80694</value>
+      <year>2008</year>
+    </record>
+    <record index="21">
+      <country>Czech Republic</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>3723</value>
+      <year>2009</year>
+    </record>
+    <record index="22">
+      <country>Czech Republic</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>88483</value>
+      <year>2009</year>
+    </record>
+    <record index="23">
+      <country>Hungary</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>1350</value>
+      <year>2004</year>
+    </record>
+    <record index="24">
+      <country>Hungary</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>63232</value>
+      <year>2004</year>
+    </record>
+    <record index="25">
+      <country>Hungary</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>1430</value>
+      <year>2005</year>
+    </record>
+    <record index="26">
+      <country>Hungary</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>68570</value>
+      <year>2005</year>
+    </record>
+    <record index="27">
+      <country>Hungary</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>2917</value>
+      <year>2006</year>
+    </record>
+    <record index="28">
+      <country>Hungary</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>63626</value>
+      <year>2006</year>
+    </record>
+    <record index="29">
+      <country>Hungary</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>3126</value>
+      <year>2007</year>
+    </record>
+    <record index="30">
+      <country>Hungary</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>61125</value>
+      <year>2007</year>
+    </record>
+    <record index="31">
+      <country>Hungary</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>2633</value>
+      <year>2008</year>
+    </record>
+    <record index="32">
+      <country>Hungary</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>57105</value>
+      <year>2008</year>
+    </record>
+    <record index="33">
+      <country>Hungary</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>2246</value>
+      <year>2009</year>
+    </record>
+    <record index="34">
+      <country>Hungary</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>61427</value>
+      <year>2009</year>
+    </record>
+    <record index="35">
+      <country>Poland</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>13065</value>
+      <year>2004</year>
+    </record>
+    <record index="36">
+      <country>Poland</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>480325</value>
+      <year>2004</year>
+    </record>
+    <record index="37">
+      <country>Poland</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>19133</value>
+      <year>2005</year>
+    </record>
+    <record index="38">
+      <country>Poland</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>495504</value>
+      <year>2005</year>
+    </record>
+    <record index="39">
+      <country>Poland</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>19931</value>
+      <year>2006</year>
+    </record>
+    <record index="40">
+      <country>Poland</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>498031</value>
+      <year>2006</year>
+    </record>
+    <record index="41">
+      <country>Poland</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>20119</value>
+      <year>2007</year>
+    </record>
+    <record index="42">
+      <country>Poland</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>526524</value>
+      <year>2007</year>
+    </record>
+    <record index="43">
+      <country>Poland</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>18998</value>
+      <year>2008</year>
+    </record>
+    <record index="44">
+      <country>Poland</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>551469</value>
+      <year>2008</year>
+    </record>
+    <record index="45">
+      <country>Poland</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>18337</value>
+      <year>2009</year>
+    </record>
+    <record index="46">
+      <country>Poland</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>568620</value>
+      <year>2009</year>
+    </record>
+    <record index="47">
+      <country>Slovak Republic</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>1310</value>
+      <year>2004</year>
+    </record>
+    <record index="48">
+      <country>Slovak Republic</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>32537</value>
+      <year>2004</year>
+    </record>
+    <record index="49">
+      <country>Slovak Republic</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>1262</value>
+      <year>2005</year>
+    </record>
+    <record index="50">
+      <country>Slovak Republic</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>34415</value>
+      <year>2005</year>
+    </record>
+    <record index="51">
+      <country>Slovak Republic</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>1361</value>
+      <year>2006</year>
+    </record>
+    <record index="52">
+      <country>Slovak Republic</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>39140</value>
+      <year>2006</year>
+    </record>
+    <record index="53">
+      <country>Slovak Republic</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>1557</value>
+      <year>2007</year>
+    </record>
+    <record index="54">
+      <country>Slovak Republic</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>45581</value>
+      <year>2007</year>
+    </record>
+    <record index="55">
+      <country>Slovak Republic</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>1705</value>
+      <year>2008</year>
+    </record>
+    <record index="56">
+      <country>Slovak Republic</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>64270</value>
+      <year>2008</year>
+    </record>
+    <record index="57">
+      <country>Slovak Republic</country>
+      <field_of_education>Computing (ISC 48)</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>2152</value>
+      <year>2009</year>
+    </record>
+    <record index="58">
+      <country>Slovak Republic</country>
+      <field_of_education>Total over all fields of study</field_of_education>
+      <flags></flags>
+      <gender>Total males+females</gender>
+      <level_of_education>Tertiary-type A and advanced research programmes</level_of_education>
+      <programme_destination>Total</programme_destination>
+      <programme_duration>All educational programmes</programme_duration>
+      <programme_orientation>All educational programmes</programme_orientation>
+      <value>74752</value>
+      <year>2009</year>
+    </record>
+  </records>
+</data>
