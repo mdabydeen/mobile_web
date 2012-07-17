@@ -27,3 +27,10 @@ You are to submit the deliverables listed in the overview to your instructor by 
 
 The data files do not have the units used.  This is typically provided in a separate file.  You can determine which units are used by going to http://stats.oecd.org/, then going to the themes tab and choosing the right theme to find your information.  On the right hand side there will be a tab with the label Show Information.
 
+=================
+Project Resources
+=================
+
+Mike Dabydeen - http://mobile.sheridanc.on.ca/~dabydeem/
+Daniel Audino - http://mobile.sheridanc.on.ca/~audinod/
+
