@@ -1,3 +1,19 @@
+/*
+* File Name: Style.css
+* Project: Mobile Web Based Application Project using jQuery, HTML5 & XML
+* Project URI: http://mobile.sheridanc.on.ca/~dabydeem/project
+* Project URI:  http://mobile.sheridanc.on.ca/~audinod/project
+* Author: Daniel Audino 
+* Author URI: http://www.danielaudino.com
+* Author: Michael Dabydeen
+* Author URI: http://www.michaeldabydeen.com
+*
+*
+* Description: Web layout using a 980px grid for regular screen. 
+*
+*/
+
+
 #container{
 
 	width: 980px;
@@ -5,6 +21,135 @@
 
 }
 
- #myCanvas {
+#myCanvas {
         border: 1px solid #9C9898;
       }
+
+
+/* Main Elements */
+
+body{
+
+	background: #FFFFFF; 
+	padding-top: 15px;
+
+}
+
+h1{
+
+	font-weight: bold; 
+	font-size: 20px; 
+	font-family: Helvetica, sans-serif;
+}
+
+h2{
+
+	font-weight: bold; 
+	font-size: 16px; 
+	font-family: Helvetica, sans-serif;
+	
+
+}
+
+h3{
+
+	font-weight: bold; 
+	font-size: 12px; 
+	font-family: Helvetica, sans-serif;
+	
+
+}
+
+footer h5{
+	
+	font-weight: bold; 
+	font-size: 8.5px; 
+	font-family: Helvetica, sans-serif;
+	font: #fffff;
+	text-align: center;
+
+}
+
+
+/* Content Specific Elements */
+
+#container{
+
+		width: 980px; 
+		margin: 0 auto; 
+		/*background-color: #C3D9FF;*/
+		background-color: #ffffff;
+
+}
+
+
+
+header{
+
+		height: 100px;
+		padding: 15px 15px 15px 15px; 
+		background-color: #4096EE;
+
+}
+
+
+#main{
+
+	
+	width:  700px;
+	margin-top: 5px;
+	padding: 5px 5px 5px 5px;
+	float: left;
+
+}
+
+#keep-up{
+
+	
+}
+
+#about{
+
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	float: right;
+	width:  250px;
+}
+
+footer{
+
+	clear: both;
+	background-color: #4096EE;
+	padding: 5px 5px 5px 5px;
+	height: 50px;
+}
+
+/* Sub Classes */ 
+.bordered{
+	
+		margin: 1px solid black;
+
+}
+
+.div-head{
+
+	height: 25px;
+	background-color: #C3D9FF;
+	padding: 3px 3px 3px 3px;
+	text-align: center;
+	font-family: "Helvetica", sans-serif; 
+
+}
+
+.div-body{
+
+	border: 1px solid #000000; 
+	padding: 5px 5px 5px 5px; 
+	font-family: "Georgia", sans-serif; 
+
+}
+
+/* Specific Mods */
+
+
+
