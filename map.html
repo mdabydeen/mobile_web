@@ -4,6 +4,7 @@
 		<title>Home | OECD - Computer Education Data</title>
 		<script src="http://code.jquery.com/jquery-latest.min.js"
         type="text/javascript"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		<meta name="viewport" content="initial-scale=1.0, width=device-width"/>
 		<link rel="stylesheet" media="screen" href="style/reset.css" />
 		<link rel="stylesheet" media="screen and (max-device-width: 480px)" href="style/mobile.portrait.css" />
@@ -11,7 +12,7 @@
 		<link rel="stylesheet" media="screen" href="style/style.css" />
 		<script type="text/javascript"
       				src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC2x1QVNOvwHGW5PCpP6SNj8YEhjmcjRqs&sensor=false">
-   		 </script>
+    		</script>
 		<script type="text/javascript">
 			//Get the xml File
 			 $(document).ready(function()
@@ -26,14 +27,45 @@
  			 });
 
 			//If xml file retreval fails display failure
-			function failedxml(xml){
+			function failedxml(){
  				$('#map_canvas').append('Error retreving XML');
 			}
 	
-			country = $(xml).find("country").text();
-			//debug 
-			document.write(country);
-			$('#map_canvas').html(country);
+			function handleResponse(xml){
+				$(xml).find("country").each(function(){
+				var address = getLatLong($(this).text());
+				var lat = address.lat();
+				var lng = address.lng();
+				initialize(lat,lng);
+
+				});
+			}
+
+			function getLatLong(address){
+      				var geo = new google.maps.Geocoder;
+
+      				geo.geocode({'address':address},function(results, status){
+              			if (status == google.maps.GeocoderStatus.OK) {
+                			return results[0].geometry.location;
+              			} else {
+                			alert("Geocode was not successful for the following reason: " + status);
+              			}
+
+       				});
+			}
+
+			function initialize(lat,lng) {
+  				var mapOptions = {
+   				 zoom: 8,
+   				 center: new google.maps.LatLng(lat,lng),
+    				mapTypeId: google.maps.MapTypeId.ROADMAP
+  				}
+  				var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+			}
+
+
+
+  			
 			
 		</script>
 	</head>
@@ -53,7 +85,7 @@
 		</header>
 		
 		<div id="container">
-			<div id="map_canvas" style="width:320px; height:480px;"></div>
+			<div id="map_canvas" style="width:320px; height:480px"></div>
 			
 			
 		</div><!--end container --> 
