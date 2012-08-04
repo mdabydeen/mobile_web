@@ -9,7 +9,31 @@
 		<link rel="stylesheet" media="screen and (max-device-width: 480px)" href="style/mobile.portrait.css" />
 		<link rel="stylesheet" media="screen and (max-device-width: 720px)" href="style/mobile.landscape.css" />
 		<link rel="stylesheet" media="screen" href="style/style.css" />
+		<script type="text/javascript"
+      				src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC2x1QVNOvwHGW5PCpP6SNj8YEhjmcjRqs&sensor=false">
+   		 </script>
 		<script type="text/javascript">
+			//Get the xml File
+			 $(document).ready(function()
+ 			  {
+    				 $.ajax({
+     					 type: "GET",
+     					 url: "euComputingEducation.xml",
+     					 dataType: "xml",
+     					 success: handleResponse,
+      					 error: failedxml
+  				 });
+ 			 });
+
+			//If xml file retreval fails display failure
+			function failedxml(xml){
+ 				$('#map_canvas').append('Error retreving XML');
+			}
+	
+			country = $(xml).find("country").text();
+			//debug 
+			document.write(country);
+			$('#map_canvas').html(country);
 			
 		</script>
 	</head>
@@ -29,6 +53,8 @@
 		</header>
 		
 		<div id="container">
+			<div id="map_canvas" style="width:320px; height:480px;"></div>
+			
 			
 		</div><!--end container --> 
 		<footer>
