@@ -8,6 +8,12 @@
 		<link rel="stylesheet" media="screen and (max-device-width: 480px)" href="style/mobile.portrait.css" />
 		<link rel="stylesheet" media="screen and (max-device-width: 720px)" href="style/mobile.landscape.css" />
 		<link rel="stylesheet" media="screen" href="style/style.css" />
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.document-subsection').hide();
+
+			});
+		</script>
 	</head>
 	<body>
 		<header>
@@ -15,12 +21,19 @@
 		</header>
 		<nav>
 			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Graph</a></li>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#graph">Graph</a></li>
 			</ul>
 		</nav>
 		<div id="container">
-			<p> Some Demo Shit <p> 
+			<section id="home">
+			</section> 
+			<section id="graph">
+				<script src="graph.js" type="text/javascript"></script>
+    				 <canvas id="graph" width="300" height="300"></canvas>
+				<div id="test"></div>
+			</section>
+			
 		</div><!--end container --> 
 		<footer>
 		</footer>
