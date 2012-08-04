@@ -1,3 +1,18 @@
+/*
+* File Name: mobile.protrait.css
+* Project: Mobile Web Based Application Project using jQuery, HTML5 & XML
+* Project URI: http://mobile.sheridanc.on.ca/~dabydeem/project
+* Project URI:  http://mobile.sheridanc.on.ca/~audinod/project
+* Author: Daniel Audino 
+* Author URI: http://www.danielaudino.com
+* Author: Michael Dabydeen
+* Author URI: http://www.michaeldabydeen.com
+*
+*
+* Description: Protrait layout for mobile devices using a 480px grid.
+*
+*/
+
 #container{
 
 	width: 480px;
