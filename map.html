@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Home | OECD - Computer Education Data</title>
-		<script src="http://code.jquery.com/jquery-latest.min.js"
-        type="text/javascript"></script>
+		<title>Maps | OECD - Computer Education Data</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		<meta name="viewport" content="initial-scale=1.0, width=device-width"/>
 		<link rel="stylesheet" media="screen" href="style/reset.css" />
@@ -13,62 +12,8 @@
 		<script type="text/javascript"
       				src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC2x1QVNOvwHGW5PCpP6SNj8YEhjmcjRqs&sensor=false">
     		</script>
-		<script type="text/javascript">
-			 var geocoder;
-  			 var map;
-			//Get the xml File
-			 $(document).ready(function()
- 			  {
-				 initialize();
-    				 $.ajax({
-     					 type: "GET",
-     					 url: "euComputingEducation.xml",
-     					 dataType: "xml",
-     					 success: handleResponse,
-      					 error: failedxml
-  				 });
- 			 });
+		<script type="text/javascript" src="maps.js"></script>
 
-			//If xml file retreval fails display failure
-			function failedxml(){
- 				$('#map_canvas').append('Error retreving XML');
-			}
-	
-			function handleResponse(xml){
-				
-				$(xml).find("country").each(function(){
-					add =  $(this).text()
-				});		
-				codeAddress(add);
-			}
-
-			 function initialize() {
-    				geocoder = new google.maps.Geocoder();
-   				var latlng = new google.maps.LatLng(43.591525,-79.638069);
-    				var mapOptions = {
-       				 zoom: 8,
-     				 center: latlng,
-     				 mapTypeId: google.maps.MapTypeId.ROADMAP
-    			}
-   			 map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
-  			}
-
-  		     function codeAddress(address) {
-    			geocoder.geocode( { 'address': address}, function(results, status) {
-    			if (status == google.maps.GeocoderStatus.OK) {
-      				  map.setCenter(results[0].geometry.location);
-       			 var marker = new google.maps.Marker({
-          		  map: map,
-          		  position: results[0].geometry.location
-       			 });
-     			 } else {
-       				 alert("Geocode was not successful for the following reason: " + status);
-      				}
-    			});
-  		      }
-
-			
-		</script>
 	</head>
 	<body>
 		<header>
