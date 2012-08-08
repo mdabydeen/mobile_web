@@ -48,11 +48,6 @@ m=1;}
 					max=$(this).find("value").text();
 					}
 				}
-<<<<<<< HEAD
-			
-=======
-
->>>>>>> 57565eb6ca76938412c2b269522b835f8c2923c4
 });
 max = parseInt(max)+1000;
 
