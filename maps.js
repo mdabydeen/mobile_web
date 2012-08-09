@@ -54,7 +54,7 @@
 		//Setup Map Variables
 		var mapOptions = {
 			center: new google.maps.LatLng(43.591525,-79.638069), 
-          		zoom: 5,
+          		zoom: 6,
           		mapTypeId: google.maps.MapTypeId.ROADMAP
        		 };
         	
@@ -78,7 +78,16 @@
           		  	map: map,
 				animation: google.maps.Animation.DROP,
           		  	position: results[0].geometry.location
-       			  }); 
+       			  });
+
+			  var infowindow = new google.maps.InfoWindow({
+            				 content: this.info
+       			   });
+   			
+			  // Attach an click event handler to the marker that shows the text
+        		  google.maps.event.addListener(marker, 'click', function() {
+            				infowindow.open(map,marker);
+        		  });
 
 				//return results[0].geometry.location;		
      			 } else {//begin else
