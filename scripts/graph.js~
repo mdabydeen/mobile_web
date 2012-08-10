@@ -3,7 +3,7 @@
    {
      $.ajax({
       type: "GET",
-      url: "euComputingEducation.xml",
+      url: "XML/euComputingEducation.xml",
       dataType: "xml",
       success: handleResponse,
         error: failedxml
@@ -12,7 +12,7 @@
 
 //If xml file retreval fails display failure
 function failedxml(){
- $("#title").append('Error retreving XML');
+ $("#container").append('Error retreving XML');
 }
 
 function handleResponse(xml) {
@@ -48,11 +48,7 @@ m=1;}
 					max=$(this).find("value").text();
 					}
 				}
-<<<<<<< HEAD
-			
-=======
 
->>>>>>> 57565eb6ca76938412c2b269522b835f8c2923c4
 });
 max = parseInt(max)+1000;
 
@@ -155,3 +151,4 @@ max = parseInt(max)+1000;
             function getYPixel(val) {
                 return graph.height - (((graph.height - yPadding) / max) * val) - yPadding;
             }
+

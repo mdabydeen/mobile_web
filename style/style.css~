@@ -25,6 +25,8 @@
         border: 1px solid #9C9898;
       }
 
+#map_canvas { height: 100% }
+
 
 /* Main Elements */
 
@@ -138,6 +140,9 @@ footer{
 	background-color: #4096EE;
 	padding: 5px 5px 5px 5px;
 	height: 25px;
+}
+table{
+	border: 1px solid #990000;
 }
 
 /* Sub Classes */ 

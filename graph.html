@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<head>
 		<title>Data | OECD - Computer Education Data</title>
-		<script src="http://code.jquery.com/jquery-latest.min.js"
-        type="text/javascript"></script>
+		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 		<meta name="viewport" content="initial-scale=1.0, width=device-width"/>
 		<link rel="stylesheet" media="screen" href="style/reset.css" />
 		<link rel="stylesheet" media="screen and (max-device-width: 480px)" href="style/mobile.portrait.css" />
 		<link rel="stylesheet" media="screen and (max-device-width: 720px)" href="style/mobile.landscape.css" />
 		<link rel="stylesheet" media="screen" href="style/style.css" />
-		<script src="scripts/data.js" type="text/javascript"></script>
-	</head>
-	<body>
+		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+		<script src="scripts/graph.js" type="text/javascript"></script>
+  	</head>
+<body>
 		<header>
 			
 			<nav>
@@ -25,11 +26,15 @@
 			<img src="images/logooecd_en.png" />
 			<h1>  Organisation for Economic Co-operation and Development | Computer Education Time Series</h1>
 		</header>
-	
-		<div id="container">
-			<table></table>
-		</div><!--end container --> 
-		<footer>
+<div id="container">
+<div id="Title0"></div>
+    <canvas id="graph1" width="600" height="500"></canvas>
+<div id="Legend0"></div>
+<div id="Title1"></div>
+	<canvas id="graph2" width="600" height="500"></canvas>
+<div id="Legend1"></div>
+</div>
+<footer>
 			<h5> &copy;&nbsp;OECD 2012 | Website developed by
 			<a href="http://www.michaeldabydeen.com" target="_blank"> Michael Dabydeen</a> & <a href="http://www.michaeldabydeen.com" 					target="_blank"> Daniel Audino</a> </h5> 
 		</footer>

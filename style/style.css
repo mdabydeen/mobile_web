@@ -141,6 +141,9 @@ footer{
 	padding: 5px 5px 5px 5px;
 	height: 25px;
 }
+table,td{
+	border: 1px solid #990000;
+}
 
 /* Sub Classes */ 
 .bordered{
