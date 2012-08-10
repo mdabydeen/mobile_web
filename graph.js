@@ -18,8 +18,8 @@ function failedxml(){
 function handleResponse(xml) {
  	//Initialize variables
         var graph;
-	var xPadding = 50;
-	var yPadding = 30;
+	var xPadding = 70;
+	var yPadding = 50;
 	ccount = 0;
 	color=["red","green","blue","orange","black","purple"];
 	countries=[];
@@ -89,6 +89,9 @@ function handleResponse(xml) {
 		for(var i = 0; i < data.values.length; i ++) {
     			c.fillText(data.values[i].X, getXPixel(i), graph.height() - yPadding + 20);
 		}
+		c.font="20px Arial";
+		c.fillText("Year", 300, graph.height() - yPadding + 40);
+		c.font = 'italic 8pt sans-serif';
 		c.textAlign = "right"
 		c.textBaseline = "middle";
  		if(a==0){
@@ -101,6 +104,9 @@ function handleResponse(xml) {
     				c.fillText(i, xPadding - 10, getYPixel(i));
 			}
 		}
+		c.rotate(-Math.PI/2);
+		c.font="20px Arial";
+		c.fillText("Values", xPadding-250, 15);
 	}
 
 
