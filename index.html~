@@ -7,7 +7,7 @@
 		<meta name="viewport" content="initial-scale=1.0, width=device-width"/>
 			
 	<!-- external stylesheet -->
-	<link rel="stylesheet" type="text/css" href="style/style.css" /> 
+	<link rel="stylesheet" type="text/css" href="style/reset.css" /> 
 	<link rel="stylesheet" type="text/css" href="style/style.css" 
 		  media="screen and (min-width:900px)" />
 
@@ -45,22 +45,11 @@
 			</section><!-- end section --> 
 			<aside id="about">
 				<div class="div-head">
+					Executive Summary
 				</div>
 				<div class="div-body">
+					This project has been developed to provide users with a fluent interface and representation of data retrieved from an XML file. The data we are representing is the growth and change of students enrolled within college courses and Computer tech courses from 2004-2009. Responsive CSS, Jquery, Javascript and HTML5 are the majority of technologies involved in the creation of this project.
 				</div>
-			</aside>
-			<section id="main">
-				<div class="div-head">
-				</div>
-				<div class="div-body">
-				</div>
-			</section><!-- end section --> 
-			<aside id="about">
-				<div class="div-head">
-				</div>
-				<div class="div-body">
-				</div>
-			</aside>
 		</div><!--end container --> 
 		<footer>
 			<h5> &copy;&nbsp;OECD 2012 | Website developed by

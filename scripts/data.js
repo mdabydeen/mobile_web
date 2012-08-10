@@ -3,7 +3,7 @@
    {
      $.ajax({
       type: "GET",
-      url: "euComputingEducation.xml",
+      url: "XML/euComputingEducation.xml",
       dataType: "xml",
       success: handleResponse,
         error: failedxml
@@ -12,7 +12,7 @@
 
 //If xml file retreval fails display failure
 function failedxml(){
-	$("table").append('Error retreving XML');
+	$("#container").append('Error retreving XML');
 }
 
 function handleResponse(xml) {
