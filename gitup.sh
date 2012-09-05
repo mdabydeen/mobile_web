@@ -9,8 +9,6 @@
 echo "Enter the name of the repo to push: "
 read repo
 
-now = date;
-
 #commit
 
 git commit -a 
