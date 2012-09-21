@@ -31,6 +31,6 @@ The data files do not have the units used.  This is typically provided in a sepa
 Project Resources
 =================
 
-Mike Dabydeen - http://mobile.sheridanc.on.ca/~dabydeem/
+Michael Dabydeen - http://mobile.sheridanc.on.ca/~dabydeem/
 Daniel Audino - http://mobile.sheridanc.on.ca/~audinod/
 
