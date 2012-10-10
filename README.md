@@ -1,5 +1,5 @@
 ===============================
-MOBILE WEB BASED APPLICATION DEVELOPMENT FINAL PROJECT
+MOBILE WEB BASED APP. DEVELOPMENT FINAL PROJECT
 ===============================
 
 This repository contains the final project for <a href="http://sheridancollege.ca/Programs%20and%20Courses/Full-Time%20Programs/Programs%20A-Z%20Index/Computer%20Systems%20Technology%20-%20Software%20Development%20and%20Network%20Engineering%20Co-op.aspx" target="_blank">SYST 35288 : Mobile Web Based Application Development</a> course which is part of the <a href="http://sheridancollege.ca/Programs%20and%20Courses/Full-Time%20Programs/Programs%20A-Z%20Index/Computer%20Systems%20Technology%20-%20Software%20Development%20and%20Network%20Engineering%20Co-op.aspx">Computer Systems Technology: Software Development and 
