@@ -1,3 +1,12 @@
+===============================
+MOBILE WEB FINAL PROJECT
+===============================
+
+This repository contains the final project for <a href="http://sheridancollege.ca/Programs%20and%20Courses/Full-Time%20Programs/Programs%20A-Z%20Index/Computer%20Systems%20Technology%20-%20Software%20Development%20and%20Network%20Engineering%20Co-op.aspx" target="_blank">SYST 35288 : Mobile Web Based Application Development course which is part of the Computer Systems Technology: Software Development and 
+Network Engineering Coop Progra</a>, offered at <a href="http://sheridancollege.ca" target="_blank">Sheridan College Institute of Technology & Advanced Learning</a>.
+
+This project was done by <a href="http://www.twitter.com/firelinks" target="_blank"> Michael Dabydeen</a> & <a href="http://www.twitter.com/firelinks" target="_blank">Daniel Audino</a>. It was submitted on August 9th 2012, graded at 98% and considered the best attempt of the class. 
+
 ================================
 OECD Data Explorer and Visualizer
 ================================
