@@ -5,12 +5,12 @@ MOBILE WEB BASED APP. DEVELOPMENT FINAL PROJECT
 This repository contains the final project for <a href="http://sheridancollege.ca/Programs%20and%20Courses/Full-Time%20Programs/Programs%20A-Z%20Index/Computer%20Systems%20Technology%20-%20Software%20Development%20and%20Network%20Engineering%20Co-op.aspx" target="_blank">SYST 35288 : Mobile Web Based Application Development</a> course which is part of the <a href="http://sheridancollege.ca/Programs%20and%20Courses/Full-Time%20Programs/Programs%20A-Z%20Index/Computer%20Systems%20Technology%20-%20Software%20Development%20and%20Network%20Engineering%20Co-op.aspx">Computer Systems Technology: Software Development and 
 Network Engineering Coop Program</a>, offered at <a href="http://sheridancollege.ca" target="_blank">Sheridan College Institute of Technology & Advanced Learning</a>.
 
-This project was done by <a href="http://www.twitter.com/firelinks" target="_blank"> Michael Dabydeen</a> & <a href="http://www.twitter.com/firelinks" target="_blank">Daniel Audino</a>. It was submitted on August 9th 2012, graded at 98% and considered the best attempt of the class. 
+This project was done by <a href="http://www.twitter.com/firelinks" target="_blank"> Michael Dabydeen</a> & <a href="http://www.twitter.com/firelinks" target="_blank">Daniel Audino</a>. It was submitted on August 9th 2012, graded at 100% and considered the best attempt of the class. 
 
 Below is a description of the objectives that we set out to achieve. Please note that while real data was used in this project, the result was merely fictional and used only for learning purposes. 
 
 ================================
-OECD Data Explorer and Visualizer
+##OECD Data Explorer and Visualizer
 ================================
 
 This project is a group project intended to exercise a student's skill in major web technologies focused on development of a rich website targeted at smartphones. The key deliverables will be:
@@ -28,7 +28,7 @@ This project is a group project intended to exercise a student's skill in major 
 *Project Report*. A report describing your project.
 
 ==================
-Business Overview
+##Business Overview
 ==================
 
 An important trend in modern business the more advanced use of data. This data is often available in XML or JSON formats to enable easy consumption of the data by websites.  This data can be consumed using rich clients using Javascript, HTML5, CSS and jQuery.
@@ -39,7 +39,7 @@ You are to submit the deliverables listed in the overview to your instructor by 
 The data files do not have the units used.  This is typically provided in a separate file.  You can determine which units are used by going to http://stats.oecd.org/, then going to the themes tab and choosing the right theme to find your information.  On the right hand side there will be a tab with the label Show Information.
 
 =================
-Project Resources
+##Project Resources
 =================
 
 Michael Dabydeen - http://mobile.sheridanc.on.ca/~dabydeem/
